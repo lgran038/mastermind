@@ -1,0 +1,39 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    height: 50px;
+    width: 100%;
+    background-color: #041C32;
+    color: white;
+}
+
+.HeaderTitle {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.SettingsButton {
+    margin: 10px;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.SettingsButton:hover {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
+
+.StatsButton {
+    margin: 10px;
+    width: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.StatsButton:hover {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}

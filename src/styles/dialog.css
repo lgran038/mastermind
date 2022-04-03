@@ -1,0 +1,61 @@
+.DialogOverlay {
+    display: flex;
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+}
+  
+.Dialog {
+    display: flex;
+    flex-direction: column;
+    background-color: #04293A;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    top: 40%;
+    left: 40%;
+    padding: 10px;
+}
+
+.DialogClose {
+    align-self: end;
+}
+
+.DialogClose:hover {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
+
+.DialogMessage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.DialogStats {
+    display: flex; 
+    flex-direction: row;
+    align-self: stretch;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.DialogPlayButton {
+    color: black;
+    background-color: #00CA8D;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+}
+  

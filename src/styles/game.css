@@ -1,0 +1,23 @@
+.GameContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    outline-style: none;
+    color: #F5F5F5;
+}
+  
+.GameBoardContainer {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.NewGameButton {
+    color: black;
+    background-color: #00CA8D;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+}

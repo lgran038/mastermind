@@ -1,0 +1,87 @@
+.GameBoard {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.GameRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    --hints-width: 75px;
+}
+
+.GameTileRow {
+    display: flex;
+    flex-direction: row;
+    margin-left: var(--hints-width);
+}
+
+.GameHintTile {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    align-items: center;
+    width: var(--hints-width);
+}
+
+.GameHint {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: min(max(14px, 4vw), 25px);
+    height: min(max(14px, 4vw), 25px);;
+    margin: 5px;
+    padding-bottom: 2px;
+    font-size: min(max(10px, 4vw), 20px);
+    font-weight: bold;
+    border-radius: 6px;
+    color: black;
+}
+
+.HintCorrect {
+    background-color: #00CA8D;
+}
+
+.HintPartial {
+    background-color: #FFCA24;
+}
+
+.HintAnimated {
+    transform: scale(1.1, 1.1);
+}
+
+.HintFocused {
+    height: min(max(16px, 5vw), 30px);;
+}
+
+.GameTile {
+    display: flex;
+    margin: 3px;
+    width: min(max(24px, 16vw), 60px);
+    height: min(max(24px, 16vw), 40px);
+    align-items: center;
+    justify-content: center;
+    font-size: min(max(16px, 7vw), 30px);
+    font-weight: bold;
+    border-radius: 4px;
+    transition: height 150ms, font-size 150ms;
+    background-color: #041C32;
+}
+
+.GTFocused {
+    height: min(max(30px, 14vw), 60px);
+    font-size: min(max(20px, 14vw), 36px);
+    font-weight: bold;
+    transition: height 150ms, font-size 150ms;
+    background-color: #4A5563;
+}
+
+.GTSubmitted {
+    background-color: #364151;
+}
+
+.GTAnimate {
+    transform: scale(1.05, 1.05);
+}

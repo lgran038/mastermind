@@ -1,0 +1,40 @@
+.App-body {
+  background-color: #04293A;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.White-svg {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
+
+.Gray-svg {
+  filter: invert(30%) sepia(40%) saturate(254%) hue-rotate(173deg) brightness(89%) contrast(83%);
+}
+
+.noSelect {
+  /* Disable Highlighting*/
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #041C32;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4A5563;
+  border-radius: 10px;
+}
